@@ -247,7 +247,7 @@ function sendWhatsAppMessage() {
     const whatsappMessage = `Name: ${encodeURIComponent(name)}%0AEmail: ${encodeURIComponent(email)}%0APhone: ${encodeURIComponent(phone)}%0AMessage: ${encodeURIComponent(message)}`;
 
     // Construct the WhatsApp URL with the phone number and message
-    const whatsappURL = `https://wa.me/+919442411079?text=${whatsappMessage}`;
+    const whatsappURL = `https://wa.me/+918682877392?text=${whatsappMessage}`;
 
     // Open the WhatsApp URL in a new window/tab
     window.open(whatsappURL);
